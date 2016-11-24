@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}Glynn admin{% endblock %}</title>
+    <meta name="description" content="{% block description %}{% endblock %}">
+
+    {% block header %}
+
+    {% endblock %}
+    {% include '::google_analytics.html.twig' %}
+    <link rel="stylesheet" href="{{ asset('glynn-admin/css/glynn-admin.css') }}">
+</head>
+<body>
+{% include '::navbar.html.twig' %}
+
+<div id="base">
+    {% block body %}{% endblock %}
+</div>
+
+{% include '::footer.html.twig' %}
+</body>
+</html>

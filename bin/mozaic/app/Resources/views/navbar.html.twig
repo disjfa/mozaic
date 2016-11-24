@@ -1,0 +1,32 @@
+<nav class="navbar navbar-light bg-faded">
+    <div class="container">
+        <a class="navbar-brand" href="{{ path('app_index') }}">
+            Mozaic by dimme
+        </a>
+        <ul class="nav navbar-nav float-xs-right">
+
+            {% if app.user %}
+                <li class="nav-item">
+                    <a href="{{ path('fos_user_profile_show') }}" class="nav-link">
+                        <i class="fa fa-user"></i>
+                        Profile
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ path('fos_user_security_logout') }}" class="nav-link">
+                        <i class="fa fa-lock"></i>
+                        Logout
+                    </a>
+                </li>
+            {% else %}
+                <li class="nav-item">
+                    <a href="{{ path('fos_user_security_login') }}" class="nav-link">
+                        <i class="fa fa-user"></i>
+                        Login
+                    </a>
+                </li>
+            {% endif %}
+
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,17 @@
+<div class="bg-faded">
+    <div class="container py-3">
+        Footer
+    </div>
+</div>
+{% block javascripts %}
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    {% if addthis_pubid %}
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ addthis_pubid }}"></script>
+    {% endif %}
+    {% if app.environment == 'dev' %}
+        <script src="{{ asset('glynn-admin/js/glynn-admin.js') }}"></script>
+    {% else %}
+        <script src="{{ asset('glynn-admin/js/glynn-admin.min.js') }}"></script>
+    {% endif %}
+
+{% endblock %}

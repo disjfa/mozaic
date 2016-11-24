@@ -1,0 +1,4 @@
+Mozaic
+======
+
+Website for mozaic

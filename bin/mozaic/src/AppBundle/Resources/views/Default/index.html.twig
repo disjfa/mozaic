@@ -1,0 +1,133 @@
+{% extends "::wide.html.twig" %}
+
+{% block header %}
+    <meta property="og:type" content="puzzle"/>
+    <meta property="og:url" content="{{ path('app_index') }}"/>
+    <meta property="og:title" content="Mozaic by dimme"/>
+    <meta property="og:image" content="{{ asset('glynn-admin/img/mozaic-by-dimme.jpg') }}"/>
+    <meta property="og:image:width" content="600"/>
+    <meta property="og:image:height" content="338"/>
+    <meta property="og:description" content="A cool looking puzzle game"/>
+{% endblock %}
+
+{% block title %}
+    Moziac puzzle
+{% endblock %}
+
+{% block body %}
+    <div class="bg-primary text-white">
+        <div class="container py-3">
+            <h1>Mozaic by dimme</h1>
+            <p>A cool looking puzzle game</p>
+            <p>
+                <a href="{{ path('disjfa_mozaic_puzzle_daily') }}" class="btn btn-success">
+                    <i class="fa fa-calendar"></i>
+                    Play today's game
+                </a>
+                <a href="{{ path('disjfa_mozaic_puzzle_random') }}" class="btn btn-info">
+                    <i class="fa fa-puzzle-piece"></i>
+                    Play random game
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-sm-3 text-xs-center">
+                <span class="fa-stack fa-5x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-users fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="col-sm-9">
+                {% if app.user %}
+                    <h3>Hi {{ app.user.username }}</h3>
+                    <p>
+                        Welcome back. Hope you like the game.
+                    </p>
+                    <div class="btn-group">
+                        <a href="{{ path('fos_user_profile_show') }}" class="btn btn-outline-primary">
+                            <i class="fa fa-user"></i>
+                            profile
+                        </a>
+                        <a href="{{ path('disjfa_mozaic_puzzle_my_progress') }}" class="btn btn-outline-primary">
+                            <i class="fa fa-calendar"></i>
+                            progress
+                        </a>
+                    </div>
+                {% else %}
+                    <h3>Log in</h3>
+                    <p>
+                        And keep track of your progress.
+                    </p>
+                    <div class="btn-group">
+                        <a href="{{ path('fos_user_security_login') }}" class="btn btn-outline-primary">
+                            <i class="fa fa-user"></i>
+                            login
+                        </a>
+                        <a href="{{ path('fos_user_registration_register') }}" class="btn btn-outline-primary">
+                            <i class="fa fa-user-plus"></i>
+                            register
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-success text-white">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-sm-3 push-sm-9 text-xs-center">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-calendar fa-stack-1x"></i>
+                    </span>
+                </div>
+                <div class="col-sm-9 pull-sm-3">
+                    <div class="py-2">
+                        <h3>Today's game</h3>
+                        <p>
+                            Every day we create a new game. You can check it out and play. Enjoy!
+                        </p>
+                        <a href="{{ path('disjfa_mozaic_puzzle_daily') }}" class="btn btn-primary">
+                            <i class="fa fa-calendar"></i>
+                            play today's game
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-info text-white">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-sm-3 text-xs-center">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-puzzle-piece fa-stack-1x"></i>
+                    </span>
+                </div>
+                <div class="col-sm-9">
+                    <div class="py-2">
+                        <h3>Random game</h3>
+                        <p>
+                            Can't wait till tomorrow. No need, just play a random game.
+                        </p>
+                        <a href="{{ path('disjfa_mozaic_puzzle_random') }}" class="btn btn-primary">
+                            <i class="fa fa-calendar"></i>
+                            play random game
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-3">
+        <h4>Share</h4>
+        <p>If you see a puzzle you like, share. Other people might like it too.</p>
+        <addthis></addthis>
+    </div>
+{% endblock %}
+
