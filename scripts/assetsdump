@@ -1,0 +1,2 @@
+./bin/mozaic/bin/console assets:install subdomains/mozaic
+
