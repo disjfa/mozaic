@@ -26,3 +26,4 @@
 /bin/mozaic/var/sessions/*
 !bin/mozaic/var/SymfonyRequirements.php
 /bin/mozaic/vendor/
+/.config.json
