@@ -16,6 +16,14 @@
                         {% if error %}
                             <div class="alert alert-warning">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
                         {% endif %}
+                        <p>Login with:</p>
+                        {% for owner in hwi_oauth_resource_owners() %}
+                            <a href="{{ hwi_oauth_login_url(owner) }}" class="btn btn-outline-primary btn-block">
+                                <i class="fa fa-{{ owner }}"></i>
+                                {{ owner | trans({}, 'HWIOAuthBundle') }}
+                            </a> <br />
+                        {% endfor %}
+                        <p>Or:</p>
                         <div class="form-group">
                             <label for="username">{{ 'security.login.username'|trans }}</label>
                             <input type="text" id="username" name="_username" value="{{ last_username }}"

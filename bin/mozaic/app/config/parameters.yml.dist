@@ -23,3 +23,6 @@ parameters:
 
     addthis_pubid: ''
     google_analytics: ''
+
+    facebook.client_id: ''
+    facebook.client_secret: ''
