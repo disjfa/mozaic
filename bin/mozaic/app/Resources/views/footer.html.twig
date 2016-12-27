@@ -9,9 +9,9 @@
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ addthis_pubid }}"></script>
     {% endif %}
     {% if app.environment == 'dev' %}
-        <script src="{{ asset('glynn-admin/js/glynn-admin.js') }}"></script>
+        <script src="{{ asset('site/js/site.js') }}"></script>
     {% else %}
-        <script src="{{ asset('glynn-admin/js/glynn-admin.min.js') }}"></script>
+        <script src="{{ asset('site/js/site.min.js') }}"></script>
     {% endif %}
 
 {% endblock %}

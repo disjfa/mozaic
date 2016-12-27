@@ -13,9 +13,9 @@
     {% endblock %}
     {% include '::google_analytics.html.twig' %}
     {% if app.environment == 'dev' %}
-        <link rel="stylesheet" href="{{ asset('glynn-admin/css/glynn-admin.css') }}">
+        <link rel="stylesheet" href="{{ asset('site/css/site.css') }}">
     {% else %}
-        <link rel="stylesheet" href="{{ asset('glynn-admin/css/glynn-admin.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('site/css/site.min.css') }}">
     {% endif %}
 </head>
 <body>

@@ -4,12 +4,19 @@ module.exports = function (grunt) {
 
         copy: {
             options: {},
-            build: {
+            admin: {
                 expand: true,
                 flatten: true,
                 filter: 'isFile',
                 src: 'node_modules/font-awesome/fonts/*',
                 dest: 'subdomains/mozaic/glynn-admin/fonts'
+            },
+            site: {
+                expand: true,
+                flatten: true,
+                filter: 'isFile',
+                src: 'node_modules/font-awesome/fonts/*',
+                dest: 'subdomains/mozaic/site/fonts'
             }
         },
         jshint: {
@@ -17,13 +24,17 @@ module.exports = function (grunt) {
                 reporter: require('jshint-stylish'),
                 esversion: 6
             },
-            all: [
+            admin: [
                 'Gruntfile.js',
                 'subdomains/mozaic/glynn-admin/assets/**/*.js'
+            ],
+            site: [
+                'Gruntfile.js',
+                'subdomains/mozaic/site/assets/**/*.js'
             ]
         },
         browserify: {
-            dist: {
+            admin: {
                 options: {
                     transform: [
                         [
@@ -44,6 +55,28 @@ module.exports = function (grunt) {
                 files: {
                     'subdomains/mozaic/glynn-admin/js/glynn-admin.js': ['subdomains/mozaic/glynn-admin/assets/glynn-admin.js']
                 }
+            },
+            site: {
+                options: {
+                    transform: [
+                        [
+                            'babelify',
+                            {
+                                presets: ['es2015']
+                            }
+                        ],
+                        'vueify',
+                        'aliasify'
+                    ],
+                    browserifyOptions: {
+                        debug: true
+                    },
+                    exclude: '',
+                    watch: true
+                },
+                files: {
+                    'subdomains/mozaic/site/js/site.js': ['subdomains/mozaic/site/assets/site.js']
+                }
             }
         },
         uglify: {
@@ -51,9 +84,14 @@ module.exports = function (grunt) {
                 report: 'min',
                 banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
             },
-            build: {
+            admin: {
                 files: {
                     'subdomains/mozaic/glynn-admin/js/glynn-admin.min.js': ['subdomains/mozaic/glynn-admin/js/glynn-admin.js']
+                }
+            },
+            site: {
+                files: {
+                    'subdomains/mozaic/site/js/site.min.js': ['subdomains/mozaic/site/js/site.js']
                 }
             }
         },
@@ -61,19 +99,32 @@ module.exports = function (grunt) {
             options: {
                 configFile: '.sass-lint.yml'
             },
-            target: [
+            admin: [
                 'subdomains/mozaic/glynn-admin/sass/app.scss',
                 'subdomains/mozaic/glynn-admin/sass/**/*.scss'
+            ],
+            site: [
+                'subdomains/mozaic/site/sass/app.scss',
+                'subdomains/mozaic/site/sass/**/*.scss'
             ]
         },
         sass: {
-            dist: {
+            admin: {
                 options: {
                     style: 'expanded',
                     loadPath: 'node_modules'
                 },
                 files: {
                     'subdomains/mozaic/glynn-admin/css/glynn-admin.css': 'subdomains/mozaic/glynn-admin/scss/glynn-admin.scss'
+                }
+            },
+            site: {
+                options: {
+                    style: 'expanded',
+                    loadPath: 'node_modules'
+                },
+                files: {
+                    'subdomains/mozaic/site/css/site.css': 'subdomains/mozaic/site/scss/site.scss'
                 }
             }
         },
@@ -99,16 +150,30 @@ module.exports = function (grunt) {
         ],
 
         watch: {
-            sass: {
+            sassadmin: {
                 files: 'subdomains/mozaic/glynn-admin/**/*.scss',
-                tasks: ['sasslint', 'sass'],
+                tasks: ['sasslint:admin', 'sass:admin'],
                 options: {
                     debounceDelay: 250
                 }
             },
-            assets: {
+            sasssite: {
+                files: 'subdomains/mozaic/site/**/*.scss',
+                tasks: ['sasslint:site', 'sass:site'],
+                options: {
+                    debounceDelay: 250
+                }
+            },
+            assetsadmin: {
                 files: 'subdomains/mozaic/glynn-admin/assets/**/*.js',
-                tasks: ['jshint', 'browserify'],
+                tasks: ['jshint:admin', 'browserify:admin'],
+                options: {
+                    debounceDelay: 250
+                }
+            },
+            assetsite: {
+                files: 'subdomains/mozaic/site/assets/**/*.js',
+                tasks: ['jshint:site', 'browserify:site'],
                 options: {
                     debounceDelay: 250
                 }
