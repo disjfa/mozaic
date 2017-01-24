@@ -8,6 +8,14 @@
     <title>{% block title %}Glynn admin{% endblock %}</title>
     <meta name="description" content="{% block description %}{% endblock %}">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('icon/favicon-32x32.png') }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ asset('icon/favicon-16x16.png') }}" sizes="16x16">
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
+    <link rel="mask-icon" href="{{ asset('icon/safari-pinned-tab.svg') }}" color="#34495e">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+    <meta name="msapplication-config" content="{{ asset('browserconfig.xml') }}">
+    <meta name="theme-color" content="#34495e">
     {% block header %}
 
     {% endblock %}

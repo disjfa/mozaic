@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/disjfa/glynn-admin-symfony#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "glynn-admin": "^0.1.3",
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.7",
