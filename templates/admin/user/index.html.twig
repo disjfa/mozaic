@@ -1,0 +1,50 @@
+{% extends "admin.html.twig" %}
+
+{% block title %}
+    Users - {{ parent() }}
+{% endblock %}
+
+{% block page_title_text %}
+    Users
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Enabled</th>
+                    <th>Last login</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for user in users %}
+                    <tr>
+                        <td>
+                            <a href="{{ path('admin_user_show', {'user': user.id}) }}">
+                                {{ user.username }}
+                            </a>
+                        </td>
+                        <td>
+                            {{ user.email }}
+                        </td>
+                        <td>
+                            {{ user.enabled }}
+                        </td>
+                        <td>
+                            {% if user.lastLogin %}
+                                {{ user.lastLogin | date }}
+                            {% else %}
+                                <i class="fa fa-minus"></i>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,4 @@
+app:
+  login: Login
+  admin: Admin
+  logout: Logout
