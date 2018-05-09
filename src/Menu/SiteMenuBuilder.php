@@ -5,9 +5,8 @@ namespace App\Menu;
 use Knp\Menu\FactoryInterface;
 use Knp\Menu\ItemInterface;
 use Knp\Menu\Matcher\MatcherInterface;
-use Knp\Menu\MenuFactory;
-use Knp\Menu\MenuItem;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class SiteMenuBuilder
 {
@@ -17,7 +16,7 @@ class SiteMenuBuilder
     private $container;
 
     /**
-     * @var MenuFactory
+     * @var FactoryInterface
      */
     private $factory;
 
@@ -25,19 +24,25 @@ class SiteMenuBuilder
      * @var MatcherInterface
      */
     private $matcher;
+    /**
+     * @var EventDispatcherInterface
+     */
+    private $eventDispatcher;
 
     /**
      * MainBuilder constructor.
      *
-     * @param ContainerInterface $container
-     * @param FactoryInterface   $factory
-     * @param MatcherInterface   $matcher
+     * @param ContainerInterface       $container
+     * @param FactoryInterface         $factory
+     * @param MatcherInterface         $matcher
+     * @param EventDispatcherInterface $eventDispatcher
      */
-    public function __construct(ContainerInterface $container, FactoryInterface $factory, MatcherInterface $matcher)
+    public function __construct(ContainerInterface $container, FactoryInterface $factory, MatcherInterface $matcher, EventDispatcherInterface $eventDispatcher)
     {
         $this->container = $container;
         $this->factory = $factory;
         $this->matcher = $matcher;
+        $this->eventDispatcher = $eventDispatcher;
     }
 
     /**
@@ -53,7 +58,7 @@ class SiteMenuBuilder
             ],
         ]);
 
-        $this->container->get('event_dispatcher')->dispatch(
+        $this->eventDispatcher->dispatch(
             ConfigureMenuEvent::SITE,
             new ConfigureMenuEvent($this->factory, $menu)
         );
@@ -64,7 +69,7 @@ class SiteMenuBuilder
     }
 
     /**
-     * @param MenuItem[] $children
+     * @param ItemInterface[] $children
      */
     public function setupMenuData(array $children)
     {
@@ -75,7 +80,7 @@ class SiteMenuBuilder
             if (count($child->getChildren()) > 0) {
                 $itemId = sprintf('menu-%d-%d', $child->getLevel(), $childIndex + 1);
 
-                $child->setUri('#'.$itemId);
+                $child->setUri('#' . $itemId);
                 $child->setAttribute('class', 'nav-item dropdown');
                 $child->setLinkAttribute('class', 'nav-link dropdown-toggle ');
 

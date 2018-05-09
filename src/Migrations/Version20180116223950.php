@@ -2,8 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DoctrineMigrations;
+namespace App\Migrations;
 
+use Doctrine\DBAL\DBALException;
+use Doctrine\DBAL\Migrations\AbortMigrationException;
 use Doctrine\DBAL\Migrations\AbstractMigration;
 use Doctrine\DBAL\Schema\Schema;
 
@@ -12,6 +14,12 @@ use Doctrine\DBAL\Schema\Schema;
  */
 class Version20180116223950 extends AbstractMigration
 {
+    /**
+     * @param Schema $schema
+     *
+     * @throws DBALException
+     * @throws AbortMigrationException
+     */
     public function up(Schema $schema)
     {
         // this up() migration is auto-generated, please modify it to your needs
@@ -24,6 +32,12 @@ class Version20180116223950 extends AbstractMigration
         $this->addSql('CREATE UNIQUE INDEX UNIQ_957A6479C05FB297 ON fos_user (confirmation_token)');
     }
 
+    /**
+     * @param Schema $schema
+     *
+     * @throws DBALException
+     * @throws AbortMigrationException
+     */
     public function down(Schema $schema)
     {
         // this down() migration is auto-generated, please modify it to your needs
