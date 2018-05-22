@@ -23,14 +23,9 @@ Encore
   // enable vue
   .enableVueLoader()
 
-  // empty the outputPath dir before each build
-  .cleanupOutputBeforeBuild()
 
   // show OS notifications when builds finish/fail
   .enableBuildNotifications()
-
-  // create hashed filenames (e.g. app.abc123.css)
-  .enableVersioning(Encore.isProduction())
 
   // Add workbox plugin
   .addPlugin(new InjectManifest({
@@ -42,12 +37,14 @@ Encore
       'offline.html': 'url'
     }
   }))
-
 ;
 
 if (Encore.isProduction()) {
   // Enable post css loader
-  Encore.enablePostCssLoader();
+  Encore
+    .cleanupOutputBeforeBuild()
+    .enablePostCssLoader()
+    .enableVersioning();
 }
 
 // export the final configuration
