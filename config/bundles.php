@@ -19,4 +19,5 @@ return [
     Http\HttplugBundle\HttplugBundle::class => ['all' => true],
     Translation\Bundle\TranslationBundle::class => ['all' => true],
     Knp\Bundle\PaginatorBundle\KnpPaginatorBundle::class => ['all' => true],
+    Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['dev' => true, 'test' => true],
 ];

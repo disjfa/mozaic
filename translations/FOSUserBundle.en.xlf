@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="FOSUserBundle.en">
+    <unit id="BW_lWYD" name="layout.logged_in_as">
+      <segment>
+        <source>layout.logged_in_as</source>
+        <target>Logged in as</target>
+      </segment>
+    </unit>
+    <unit id="7oF7jXj" name="layout.logout">
+      <segment>
+        <source>layout.logout</source>
+        <target>Logout</target>
+      </segment>
+    </unit>
+    <unit id="J.8npBV" name="layout.login">
+      <segment>
+        <source>layout.login</source>
+        <target>Login</target>
+      </segment>
+    </unit>
+    <unit id="cMU.0rQ" name="security.login.username">
+      <segment>
+        <source>security.login.username</source>
+        <target>Username</target>
+      </segment>
+    </unit>
+    <unit id="N_kLMwm" name="security.login.password">
+      <segment>
+        <source>security.login.password</source>
+        <target>Password</target>
+      </segment>
+    </unit>
+    <unit id="8DSptbg" name="security.login.remember_me">
+      <segment>
+        <source>security.login.remember_me</source>
+        <target>Remember me</target>
+      </segment>
+    </unit>
+    <unit id="tuAV77Z" name="security.login.submit">
+      <segment>
+        <source>security.login.submit</source>
+        <target>Login</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
