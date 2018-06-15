@@ -2,45 +2,174 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
   <file id="FOSUserBundle.en">
     <unit id="BW_lWYD" name="layout.logged_in_as">
+      <notes>
+        <note category="state" priority="1">obsolete</note>
+      </notes>
       <segment>
         <source>layout.logged_in_as</source>
         <target>Logged in as</target>
       </segment>
     </unit>
     <unit id="7oF7jXj" name="layout.logout">
+      <notes>
+        <note category="state" priority="1">obsolete</note>
+      </notes>
       <segment>
         <source>layout.logout</source>
         <target>Logout</target>
       </segment>
     </unit>
     <unit id="J.8npBV" name="layout.login">
+      <notes>
+        <note category="state" priority="1">obsolete</note>
+      </notes>
       <segment>
         <source>layout.login</source>
         <target>Login</target>
       </segment>
     </unit>
     <unit id="cMU.0rQ" name="security.login.username">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Security/login_content.html.twig:29</note>
+      </notes>
       <segment>
         <source>security.login.username</source>
         <target>Username</target>
       </segment>
     </unit>
     <unit id="N_kLMwm" name="security.login.password">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Security/login_content.html.twig:35</note>
+      </notes>
       <segment>
         <source>security.login.password</source>
         <target>Password</target>
       </segment>
     </unit>
     <unit id="8DSptbg" name="security.login.remember_me">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Security/login_content.html.twig:44</note>
+      </notes>
       <segment>
         <source>security.login.remember_me</source>
         <target>Remember me</target>
       </segment>
     </unit>
     <unit id="tuAV77Z" name="security.login.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Security/login_content.html.twig:49</note>
+      </notes>
       <segment>
         <source>security.login.submit</source>
         <target>Login</target>
+      </segment>
+    </unit>
+    <unit id="agwdlwc" name="change_password.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/ChangePassword/change_password_content.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>change_password.submit</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="_cY.wHP" name="resetting.check_email">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/check_email.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>resetting.check_email</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="KsNOzZz" name="resetting.reset.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/reset_content.html.twig:6</note>
+      </notes>
+      <segment>
+        <source>resetting.reset.submit</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="f5J.GZt" name="resetting.request.username">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/request_content.html.twig:13</note>
+      </notes>
+      <segment>
+        <source>resetting.request.username</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="55aST1i" name="resetting.request.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/request_content.html.twig:19</note>
+      </notes>
+      <segment>
+        <source>resetting.request.submit</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id=".ndupSK" name="registration.check_email">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/check_email.html.twig:14</note>
+      </notes>
+      <segment>
+        <source>registration.check_email</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="B.ZozIs" name="registration.confirmed">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/confirmed.html.twig:14</note>
+      </notes>
+      <segment>
+        <source>registration.confirmed</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="_wd.d62" name="registration.back">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/confirmed.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>registration.back</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="hmX3IJA" name="registration.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/register_content.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>registration.submit</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="7g9SaRk" name="profile.show.username">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Profile/show_content.html.twig:5</note>
+      </notes>
+      <segment>
+        <source>profile.show.username</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="AaZaMf7" name="profile.show.email">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Profile/show_content.html.twig:6</note>
+      </notes>
+      <segment>
+        <source>profile.show.email</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="ci5Tbzf" name="profile.edit.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Profile/edit_content.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>profile.edit.submit</source>
+        <target></target>
       </segment>
     </unit>
   </file>

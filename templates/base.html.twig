@@ -8,3 +8,52 @@
     <img src="{{ asset('icons/apple-touch-icon.png') }}" alt="">
 {%- endblock -%}
 
+{% block footer %}
+    <br>
+    <div class="bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="{{ path('disjfa_mozaic_puzzle_daily') }}">
+                        <i class="fas fa-fw fa-calendar"></i>
+                        Play today's game
+                    </a>
+                    <br>
+                    <a href="{{ path('disjfa_mozaic_puzzle_random') }}">
+                        <i class="fas fa-fw fa-puzzle-piece"></i>
+                        Play random game
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    {% if app.user %}
+                        <a href="{{ path('fos_user_profile_show') }}">
+                            <i class="fas fa-fw fa-user"></i>
+                            profile
+                        </a>
+                        <br>
+                        <a href="{{ path('disjfa_mozaic_puzzle_my_progress') }}">
+                            <i class="fas fa-fw fa-calendar"></i>
+                            progress
+                        </a>
+                    {% else %}
+                        <a href="{{ path('fos_user_security_login') }}">
+                            <i class="fas fa-fw fa-user"></i>
+                            login
+                        </a>
+                        <br>
+                        <a href="{{ path('fos_user_registration_register') }}">
+                            <i class="fas fa-fw fa-user-plus"></i>
+                            register
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.facebook.com/mozaicpuzzle/">
+                        <i class="fab fa-fw fa-facebook"></i>
+                        facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -10,10 +10,12 @@ $red: #e74c3c;
 
 $midnight: #2c3e50;
 
-$theme-colors:(
+$theme-colors: (
         "midnight": $midnight
 );
 
 $colors: (
         "midnight": $midnight
 );
+
+$enable-rounded: false;
