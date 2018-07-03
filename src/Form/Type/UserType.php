@@ -53,6 +53,7 @@ class UserType extends AbstractType
                     'fields' => ['email'],
                 ]),
             ],
+            'translation_domain' => 'FOSUserBundle'
         ]);
     }
 }

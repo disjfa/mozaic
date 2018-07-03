@@ -1,31 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
   <file id="FOSUserBundle.en">
-    <unit id="BW_lWYD" name="layout.logged_in_as">
+    <unit id="agwdlwc" name="change_password.submit">
       <notes>
-        <note category="state" priority="1">obsolete</note>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/ChangePassword/change_password_content.html.twig:16</note>
       </notes>
       <segment>
-        <source>layout.logged_in_as</source>
-        <target>Logged in as</target>
+        <source>change_password.submit</source>
+        <target>Change password</target>
       </segment>
     </unit>
-    <unit id="7oF7jXj" name="layout.logout">
+    <unit id="_cY.wHP" name="resetting.check_email">
       <notes>
-        <note category="state" priority="1">obsolete</note>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/check_email.html.twig:16</note>
       </notes>
       <segment>
-        <source>layout.logout</source>
-        <target>Logout</target>
+        <source>resetting.check_email</source>
+        <target>An email has been sent. It contains a link you must click to reset your password.
+Note: You can only request a new password once within %tokenLifetime% hours.
+
+If you don't get an email check your spam folder or try again.</target>
       </segment>
     </unit>
-    <unit id="J.8npBV" name="layout.login">
+    <unit id="KsNOzZz" name="resetting.reset.submit">
       <notes>
-        <note category="state" priority="1">obsolete</note>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/reset_content.html.twig:6</note>
       </notes>
       <segment>
-        <source>layout.login</source>
-        <target>Login</target>
+        <source>resetting.reset.submit</source>
+        <target>Change password</target>
+      </segment>
+    </unit>
+    <unit id="f5J.GZt" name="resetting.request.username">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/request_content.html.twig:13</note>
+      </notes>
+      <segment>
+        <source>resetting.request.username</source>
+        <target>Username or email address</target>
+      </segment>
+    </unit>
+    <unit id="55aST1i" name="resetting.request.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/request_content.html.twig:19</note>
+      </notes>
+      <segment>
+        <source>resetting.request.submit</source>
+        <target>Reset password</target>
+      </segment>
+    </unit>
+    <unit id=".ndupSK" name="registration.check_email">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/check_email.html.twig:14</note>
+      </notes>
+      <segment>
+        <source>registration.check_email</source>
+        <target>An email has been sent to %email%. It contains an activation link you must click to activate your account.</target>
+      </segment>
+    </unit>
+    <unit id="B.ZozIs" name="registration.confirmed">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/confirmed.html.twig:14</note>
+      </notes>
+      <segment>
+        <source>registration.confirmed</source>
+        <target>Congrats %username%, your account is now activated.</target>
+      </segment>
+    </unit>
+    <unit id="_wd.d62" name="registration.back">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/confirmed.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>registration.back</source>
+        <target>Back to the originating page.</target>
+      </segment>
+    </unit>
+    <unit id="hmX3IJA" name="registration.submit">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/register_content.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>registration.submit</source>
+        <target>Register</target>
       </segment>
     </unit>
     <unit id="cMU.0rQ" name="security.login.username">
@@ -61,88 +118,7 @@
       </notes>
       <segment>
         <source>security.login.submit</source>
-        <target>Login</target>
-      </segment>
-    </unit>
-    <unit id="agwdlwc" name="change_password.submit">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/ChangePassword/change_password_content.html.twig:16</note>
-      </notes>
-      <segment>
-        <source>change_password.submit</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="_cY.wHP" name="resetting.check_email">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/check_email.html.twig:16</note>
-      </notes>
-      <segment>
-        <source>resetting.check_email</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="KsNOzZz" name="resetting.reset.submit">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/reset_content.html.twig:6</note>
-      </notes>
-      <segment>
-        <source>resetting.reset.submit</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="f5J.GZt" name="resetting.request.username">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/request_content.html.twig:13</note>
-      </notes>
-      <segment>
-        <source>resetting.request.username</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="55aST1i" name="resetting.request.submit">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Resetting/request_content.html.twig:19</note>
-      </notes>
-      <segment>
-        <source>resetting.request.submit</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id=".ndupSK" name="registration.check_email">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/check_email.html.twig:14</note>
-      </notes>
-      <segment>
-        <source>registration.check_email</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="B.ZozIs" name="registration.confirmed">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/confirmed.html.twig:14</note>
-      </notes>
-      <segment>
-        <source>registration.confirmed</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="_wd.d62" name="registration.back">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/confirmed.html.twig:16</note>
-      </notes>
-      <segment>
-        <source>registration.back</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="hmX3IJA" name="registration.submit">
-      <notes>
-        <note category="file-source" priority="1">templates/bundles/FOSUserBundle/Registration/register_content.html.twig:16</note>
-      </notes>
-      <segment>
-        <source>registration.submit</source>
-        <target></target>
+        <target>Log in</target>
       </segment>
     </unit>
     <unit id="7g9SaRk" name="profile.show.username">
@@ -151,7 +127,7 @@
       </notes>
       <segment>
         <source>profile.show.username</source>
-        <target></target>
+        <target>Username</target>
       </segment>
     </unit>
     <unit id="AaZaMf7" name="profile.show.email">
@@ -160,7 +136,7 @@
       </notes>
       <segment>
         <source>profile.show.email</source>
-        <target></target>
+        <target>Email</target>
       </segment>
     </unit>
     <unit id="ci5Tbzf" name="profile.edit.submit">
@@ -169,7 +145,57 @@
       </notes>
       <segment>
         <source>profile.edit.submit</source>
-        <target></target>
+        <target>Update</target>
+      </segment>
+    </unit>
+    <unit id="tRLZfny" name="User">
+      <notes>
+        <note category="file-source" priority="1">src/Form/Type/UserType.php:31</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>User</source>
+        <target>Role user</target>
+      </segment>
+    </unit>
+    <unit id="wcIksDz" name="Admin">
+      <notes>
+        <note category="file-source" priority="1">src/Form/Type/UserType.php:31</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>Admin</source>
+        <target>Role admin</target>
+      </segment>
+    </unit>
+    <unit id="47ienTP" name="Username">
+      <notes>
+        <note category="file-source" priority="1">src/Form/Type/UserType.php:22</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>Username</source>
+        <target>Username</target>
+      </segment>
+    </unit>
+    <unit id="lpzL089" name="Email">
+      <notes>
+        <note category="file-source" priority="1">src/Form/Type/UserType.php:26</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>Email</source>
+        <target>Email</target>
+      </segment>
+    </unit>
+    <unit id="wlM3BVR" name="Roles">
+      <notes>
+        <note category="file-source" priority="1">src/Form/Type/UserType.php:30</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>Roles</source>
+        <target>Roles</target>
       </segment>
     </unit>
   </file>

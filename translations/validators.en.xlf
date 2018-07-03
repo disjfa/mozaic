@@ -7,7 +7,7 @@
       </notes>
       <segment>
         <source>fos_user.username.already_used</source>
-        <target></target>
+        <target>The username is already used.</target>
       </segment>
     </unit>
     <unit id="vqk8sdH" name="fos_user.email.already_used">
@@ -16,7 +16,7 @@
       </notes>
       <segment>
         <source>fos_user.email.already_used</source>
-        <target></target>
+        <target>The email is already used.</target>
       </segment>
     </unit>
     <unit id="jtmA7tx" name="fos_user.username.blank">
@@ -25,7 +25,7 @@
       </notes>
       <segment>
         <source>fos_user.username.blank</source>
-        <target></target>
+        <target>Please enter a username.</target>
       </segment>
     </unit>
     <unit id="VVzgoob" name="fos_user.username.long">
@@ -34,7 +34,7 @@
       </notes>
       <segment>
         <source>fos_user.username.long</source>
-        <target></target>
+        <target>The username is too long.</target>
       </segment>
     </unit>
     <unit id="ypasfnh" name="fos_user.username.short">
@@ -43,7 +43,7 @@
       </notes>
       <segment>
         <source>fos_user.username.short</source>
-        <target></target>
+        <target>The username is too short.</target>
       </segment>
     </unit>
     <unit id="g72C3vn" name="fos_user.email.blank">
@@ -52,7 +52,7 @@
       </notes>
       <segment>
         <source>fos_user.email.blank</source>
-        <target></target>
+        <target>Please enter an email.</target>
       </segment>
     </unit>
     <unit id="Y1eOW4z" name="fos_user.email.long">
@@ -61,7 +61,7 @@
       </notes>
       <segment>
         <source>fos_user.email.long</source>
-        <target></target>
+        <target>The email is too long.</target>
       </segment>
     </unit>
     <unit id="9GR5Mk6" name="fos_user.email.short">
@@ -70,7 +70,7 @@
       </notes>
       <segment>
         <source>fos_user.email.short</source>
-        <target></target>
+        <target>The email is too short.</target>
       </segment>
     </unit>
     <unit id="lRE_vn_" name="fos_user.email.invalid">
@@ -79,7 +79,7 @@
       </notes>
       <segment>
         <source>fos_user.email.invalid</source>
-        <target></target>
+        <target>The email is not valid.</target>
       </segment>
     </unit>
     <unit id="Zrr5_qX" name="fos_user.password.blank">
@@ -88,7 +88,7 @@
       </notes>
       <segment>
         <source>fos_user.password.blank</source>
-        <target></target>
+        <target>Please enter a password.</target>
       </segment>
     </unit>
     <unit id="2k0f5kz" name="fos_user.password.short">
@@ -97,7 +97,7 @@
       </notes>
       <segment>
         <source>fos_user.password.short</source>
-        <target></target>
+        <target>The password is too short.</target>
       </segment>
     </unit>
   </file>
