@@ -20,12 +20,16 @@
             <h1>Mozaic by dimme</h1>
             <p>A cool looking puzzle game</p>
             <p>
-                <a href="{{ path('disjfa_mozaic_puzzle_daily') }}" class="btn btn-success">
-                    <i class="fa fa-calendar"></i>
+                <a href="{{ path('disjfa_mozaic_season_index') }}" class="btn btn-success d-block d-lg-inline-block mt-2 text-left">
+                    <i class="fas fa-fw fa-dice"></i>
+                    Play a season
+                </a>
+                <a href="{{ path('disjfa_mozaic_puzzle_daily') }}" class="btn btn-info d-block d-lg-inline-block mt-2 text-left">
+                    <i class="fas fa-fw fa-calendar"></i>
                     Play today's game
                 </a>
-                <a href="{{ path('disjfa_mozaic_puzzle_random') }}" class="btn btn-info">
-                    <i class="fa fa-puzzle-piece"></i>
+                <a href="{{ path('disjfa_mozaic_puzzle_random') }}" class="btn btn-midnight d-block d-lg-inline-block mt-2 text-left">
+                    <i class="fas fa-fw fa-puzzle-piece"></i>
                     Play random game
                 </a>
             </p>
@@ -127,6 +131,13 @@
     <div class="container py-5">
         <h4>Share</h4>
         <p>If you see a puzzle you like, share. Other people might like it too.</p>
-        <addthis></addthis>
+        <div class="btn-group">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ url('home_index') | url_encode }}" class="btn btn-outline-primary">
+                <i class="fab fa-fw fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/home?status={{ url('home_index') | url_encode }}" class="btn btn-outline-primary">
+                <i class="fab fa-fw fa-twitter"></i>
+            </a>
+        </div>
     </div>
 {% endblock %}
