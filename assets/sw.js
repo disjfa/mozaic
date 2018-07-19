@@ -1,8 +1,3 @@
-const workbox = new WorkboxSW({
-  skipWaiting: true,
-  clientsClaim: true
-});
-
 self.addEventListener('install', function (event) {
   let offlineRequest = new Request('offline.html');
   event.waitUntil(
