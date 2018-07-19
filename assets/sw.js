@@ -26,5 +26,3 @@ self.addEventListener('fetch', function (event) {
     );
   }
 });
-
-workbox.precache([]);
