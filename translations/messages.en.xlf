@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="messages.en">
+    <unit id="DodjLNR" name="date">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminDateType.php:21</note>
+      </notes>
+      <segment>
+        <source>date</source>
+        <target>Date</target>
+      </segment>
+    </unit>
+    <unit id="PTQrFkt" name="Photo added">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Controller/Admin/SeasonController.php:66</note>
+      </notes>
+      <segment>
+        <source>Photo added</source>
+        <target>Photo added</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

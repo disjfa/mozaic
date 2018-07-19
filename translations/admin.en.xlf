@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="admin.en">
+    <unit id="okluDoz" name="users.translation.page_title">
+      <notes>
+        <note category="file-source" priority="1">templates/bundles/TranslationBundle/WebUI/base.html.twig:6</note>
+        <note category="desc" priority="1">Translations</note>
+      </notes>
+      <segment>
+        <source>users.translation.page_title</source>
+        <target>Translations</target>
+      </segment>
+    </unit>
+    <unit id="qm7xyXZ" name="menu.translations">
+      <notes>
+        <note category="file-source" priority="1">src/Menu/Admin/TranslatorMenuListener.php:42</note>
+      </notes>
+      <segment>
+        <source>menu.translations</source>
+        <target>Translations</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

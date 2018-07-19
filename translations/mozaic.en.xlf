@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="mozaic.en">
+    <unit id="G7FpFXb" name="unsplashId">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/SearchType.php:19</note>
+      </notes>
+      <segment>
+        <source>unsplashId</source>
+        <target>Unsplash id</target>
+      </segment>
+    </unit>
+    <unit id="sc4jl7s" name="form.admin.season.label.title">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminSeasonType.php:24</note>
+      </notes>
+      <segment>
+        <source>form.admin.season.label.title</source>
+        <target>Title</target>
+      </segment>
+    </unit>
+    <unit id="0vMFCmm" name="form.admin.season.label.description">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminSeasonType.php:29</note>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminSeasonType.php:34</note>
+      </notes>
+      <segment>
+        <source>form.admin.season.label.description</source>
+        <target>Description</target>
+      </segment>
+    </unit>
+    <unit id="pIU0e6I" name="form.admin.season.label.public">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminSeasonType.php:39</note>
+      </notes>
+      <segment>
+        <source>form.admin.season.label.public</source>
+        <target>Publoc</target>
+      </segment>
+    </unit>
+    <unit id="W0B.18Q" name="form.admin.season_item.label.title">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminSeasonItemType.php:24</note>
+      </notes>
+      <segment>
+        <source>form.admin.season_item.label.title</source>
+        <target>Title</target>
+      </segment>
+    </unit>
+    <unit id="TzvM38m" name="form.admin.season_item.label.description">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminSeasonItemType.php:29</note>
+      </notes>
+      <segment>
+        <source>form.admin.season_item.label.description</source>
+        <target>Description</target>
+      </segment>
+    </unit>
+    <unit id="WuYOdlG" name="form.admin.season_item.label.seqnr">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Form/Type/AdminSeasonItemType.php:34</note>
+      </notes>
+      <segment>
+        <source>form.admin.season_item.label.seqnr</source>
+        <target>Seqnr</target>
+      </segment>
+    </unit>
+    <unit id="CLPTYi1" name="admin.title.season_create">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/form.html.twig:6</note>
+        <note category="desc" priority="1">Seasons form</note>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/SeasonItem/form.html.twig:6</note>
+        <note category="desc" priority="1">Seasons form</note>
+      </notes>
+      <segment>
+        <source>admin.title.season_create</source>
+        <target>Create season</target>
+      </segment>
+    </unit>
+    <unit id="K1drH4u" name="admin.page_title.season_create">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/form.html.twig:10</note>
+        <note category="desc" priority="1">Seasons form</note>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/SeasonItem/form.html.twig:10</note>
+        <note category="desc" priority="1">Seasons form</note>
+      </notes>
+      <segment>
+        <source>admin.page_title.season_create</source>
+        <target>Create season</target>
+      </segment>
+    </unit>
+    <unit id="8xy17VV" name="admin.breadcrumb.season_index">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/form.html.twig:19</note>
+        <note category="desc" priority="1">Seasons</note>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/show.html.twig:19</note>
+        <note category="desc" priority="1">Seasons</note>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/SeasonItem/form.html.twig:19</note>
+        <note category="desc" priority="1">Seasons</note>
+      </notes>
+      <segment>
+        <source>admin.breadcrumb.season_index</source>
+        <target>Season index</target>
+      </segment>
+    </unit>
+    <unit id="nOoQ0Gj" name="admin.breadcrumb.season_form">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/form.html.twig:23</note>
+        <note category="desc" priority="1">Edit</note>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/SeasonItem/form.html.twig:23</note>
+        <note category="desc" priority="1">Edit</note>
+      </notes>
+      <segment>
+        <source>admin.breadcrumb.season_form</source>
+        <target>Season</target>
+      </segment>
+    </unit>
+    <unit id="MzviePq" name="admin.season.button.save_season">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/form.html.twig:32</note>
+        <note category="desc" priority="1">Save season</note>
+      </notes>
+      <segment>
+        <source>admin.season.button.save_season</source>
+        <target>Save season</target>
+      </segment>
+    </unit>
+    <unit id="_4RJ9Qm" name="admin.title.season_index">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/index.html.twig:6</note>
+        <note category="desc" priority="1">Seasons</note>
+      </notes>
+      <segment>
+        <source>admin.title.season_index</source>
+        <target>Season</target>
+      </segment>
+    </unit>
+    <unit id="wJMO_ch" name="admin.page_title.season_index">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/index.html.twig:10</note>
+        <note category="desc" priority="1">Seasons</note>
+      </notes>
+      <segment>
+        <source>admin.page_title.season_index</source>
+        <target>Season</target>
+      </segment>
+    </unit>
+    <unit id="vRPUe8f" name="admin.button.create_season">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/index.html.twig:17</note>
+        <note category="desc" priority="1">Create season</note>
+      </notes>
+      <segment>
+        <source>admin.button.create_season</source>
+        <target>Create season</target>
+      </segment>
+    </unit>
+    <unit id="D5UAgtS" name="admin.button.edit_season">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/show.html.twig:30</note>
+        <note category="desc" priority="1">Edit season</note>
+      </notes>
+      <segment>
+        <source>admin.button.edit_season</source>
+        <target>Edit season</target>
+      </segment>
+    </unit>
+    <unit id="1_QW3TW" name="admin.button.show_on_site">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/show.html.twig:34</note>
+        <note category="desc" priority="1">Show on site</note>
+      </notes>
+      <segment>
+        <source>admin.button.show_on_site</source>
+        <target>Show on site</target>
+      </segment>
+    </unit>
+    <unit id="95kOcjE" name="admin.label.search_and_add">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/show.html.twig:52</note>
+        <note category="desc" priority="1">Search and add</note>
+      </notes>
+      <segment>
+        <source>admin.label.search_and_add</source>
+        <target>Search and add item</target>
+      </segment>
+    </unit>
+    <unit id="UUEdjpz" name="admin.button.show_photo">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/show.html.twig:83</note>
+        <note category="desc" priority="1">Show photo</note>
+      </notes>
+      <segment>
+        <source>admin.button.show_photo</source>
+        <target>Show photo</target>
+      </segment>
+    </unit>
+    <unit id="3V5GsQK" name="admin.button.edit_season_item">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Season/show.html.twig:86</note>
+        <note category="desc" priority="1">Edit item</note>
+      </notes>
+      <segment>
+        <source>admin.button.edit_season_item</source>
+        <target>Edit item</target>
+      </segment>
+    </unit>
+    <unit id="I6neYkB" name="admin.title.search">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/search.html.twig:6</note>
+        <note category="desc" priority="1">Search for new images</note>
+      </notes>
+      <segment>
+        <source>admin.title.search</source>
+        <target>Search</target>
+      </segment>
+    </unit>
+    <unit id="cz1Rq.O" name="admin.page_title.search">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/search.html.twig:10</note>
+        <note category="desc" priority="1">Search for new images</note>
+      </notes>
+      <segment>
+        <source>admin.page_title.search</source>
+        <target>Search</target>
+      </segment>
+    </unit>
+    <unit id="eh4dQIh" name="admin.label.search">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/search.html.twig:21</note>
+        <note category="desc" priority="1">Search</note>
+      </notes>
+      <segment>
+        <source>admin.label.search</source>
+        <target>Search</target>
+      </segment>
+    </unit>
+    <unit id="egrzAzp" name="admin.button.go_to_photo">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/search.html.twig:32</note>
+        <note category="desc" priority="1">Go to photo</note>
+      </notes>
+      <segment>
+        <source>admin.button.go_to_photo</source>
+        <target>Go to photo</target>
+      </segment>
+    </unit>
+    <unit id="CjRw1g1" name="admin.page_title.photo_by">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/show.html.twig:6</note>
+        <note category="desc" priority="1">Photo by %username%</note>
+      </notes>
+      <segment>
+        <source>admin.page_title.photo_by</source>
+        <target>Photo by</target>
+      </segment>
+    </unit>
+    <unit id="pMTHMmd" name="admin.title.photo_by">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/show.html.twig:10</note>
+        <note category="desc" priority="1">Photo by %username%</note>
+      </notes>
+      <segment>
+        <source>admin.title.photo_by</source>
+        <target>Photo by</target>
+      </segment>
+    </unit>
+    <unit id="5nLXnVp" name="admin.bio.title">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/show.html.twig:17</note>
+        <note category="desc" priority="1">Bio</note>
+      </notes>
+      <segment>
+        <source>admin.bio.title</source>
+        <target>Bio</target>
+      </segment>
+    </unit>
+    <unit id="tzGCbcv" name="admin.finished.title">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/show.html.twig:21</note>
+        <note category="desc" priority="1">Finished</note>
+      </notes>
+      <segment>
+        <source>admin.finished.title</source>
+        <target>Finished</target>
+      </segment>
+    </unit>
+    <unit id="1xOl6zO" name="admin.label.no_one_yet">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/show.html.twig:29</note>
+        <note category="desc" priority="1">No one yet!</note>
+      </notes>
+      <segment>
+        <source>admin.label.no_one_yet</source>
+        <target>No one yet</target>
+      </segment>
+    </unit>
+    <unit id="AnIpbmo" name="admin.button.check_on_site">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/show.html.twig:34</note>
+        <note category="desc" priority="1">Check on site</note>
+      </notes>
+      <segment>
+        <source>admin.button.check_on_site</source>
+        <target>Check on site</target>
+      </segment>
+    </unit>
+    <unit id="TaFYQmg" name="admin.title.daily_photos">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/daily.html.twig:6</note>
+        <note category="desc" priority="1">Daily photos</note>
+      </notes>
+      <segment>
+        <source>admin.title.daily_photos</source>
+        <target>Daily photos</target>
+      </segment>
+    </unit>
+    <unit id="vDMUR1M" name="admin.page_title.daily_photos">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/daily.html.twig:10</note>
+        <note category="desc" priority="1">Daily photos</note>
+      </notes>
+      <segment>
+        <source>admin.page_title.daily_photos</source>
+        <target>Daily photos</target>
+      </segment>
+    </unit>
+    <unit id="AFwJd8i" name="admin.button.filter">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/daily.html.twig:20</note>
+        <note category="desc" priority="1">Filter</note>
+      </notes>
+      <segment>
+        <source>admin.button.filter</source>
+        <target>Filter</target>
+      </segment>
+    </unit>
+    <unit id="MDwlCG9" name="admin.label.No_items_found">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/daily.html.twig:40</note>
+        <note category="desc" priority="1">No items found</note>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/photos.html.twig:39</note>
+        <note category="desc" priority="1">No items found</note>
+      </notes>
+      <segment>
+        <source>admin.label.No_items_found</source>
+        <target>No items found</target>
+      </segment>
+    </unit>
+    <unit id="nr5KO2T" name="admin.title.all_photos">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/photos.html.twig:6</note>
+        <note category="desc" priority="1">All photos</note>
+      </notes>
+      <segment>
+        <source>admin.title.all_photos</source>
+        <target>All photos</target>
+      </segment>
+    </unit>
+    <unit id="5p5E8EM" name="admin.page_title.all_photos">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/Mozaic/photos.html.twig:10</note>
+        <note category="desc" priority="1">All photos</note>
+      </notes>
+      <segment>
+        <source>admin.page_title.all_photos</source>
+        <target>All photos</target>
+      </segment>
+    </unit>
+    <unit id="r_infqk" name="button.edit-season">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Season/show.html.twig:19</note>
+        <note category="desc" priority="1">Edit season</note>
+      </notes>
+      <segment>
+        <source>button.edit-season</source>
+        <target>Edit season</target>
+      </segment>
+    </unit>
+    <unit id="P6dZWOg" name="site.title.mozaic">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Puzzle/photo.html.twig:41</note>
+        <note category="desc" priority="1">Mozaic by dimme</note>
+      </notes>
+      <segment>
+        <source>site.title.mozaic</source>
+        <target>Mozaic</target>
+      </segment>
+    </unit>
+    <unit id="_JUpmIT" name="site.button.random_new_photo">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Puzzle/photo.html.twig:80</note>
+        <note category="desc" priority="1">Random new photo</note>
+      </notes>
+      <segment>
+        <source>site.button.random_new_photo</source>
+        <target>Random new photo</target>
+      </segment>
+    </unit>
+    <unit id="ot9E82_" name="mozaic.title.you_have_finished_this_image">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Puzzle/photo.html.twig:87</note>
+        <note category="desc" priority="1">Finished!</note>
+      </notes>
+      <segment>
+        <source>mozaic.title.you_have_finished_this_image</source>
+        <target>You have finished this photo!</target>
+      </segment>
+    </unit>
+    <unit id="FznZ9w5" name="mozaic.title.you_have_not_finished_this_image">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Puzzle/photo.html.twig:92</note>
+        <note category="desc" priority="1">Not finished</note>
+      </notes>
+      <segment>
+        <source>mozaic.title.you_have_not_finished_this_image</source>
+        <target>You have not finished this photo</target>
+      </segment>
+    </unit>
+    <unit id="TJJPhEa" name="admin.flash.season_saved">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Controller/Admin/SeasonController.php:116</note>
+      </notes>
+      <segment>
+        <source>admin.flash.season_saved</source>
+        <target>Season saved</target>
+      </segment>
+    </unit>
+    <unit id="TbHzpEQ" name="admin.flash.season_item_saved">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Controller/Admin/SeasonItemController.php:56</note>
+      </notes>
+      <segment>
+        <source>admin.flash.season_item_saved</source>
+        <target>Item saved</target>
+      </segment>
+    </unit>
+    <unit id="Th6wxPS" name="mozaic.liked.message">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Controller/PuzzleController.php:153</note>
+      </notes>
+      <segment>
+        <source>mozaic.liked.message</source>
+        <target>Liked! Nice!</target>
+      </segment>
+    </unit>
+    <unit id="t5oElgL" name="mozaic.unliked.message">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Controller/PuzzleController.php:186</note>
+      </notes>
+      <segment>
+        <source>mozaic.unliked.message</source>
+        <target>Unliked. Sad!</target>
+      </segment>
+    </unit>
+    <unit id="h7dT.68" name="admin.season.button.save_item">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Admin/SeasonItem/form.html.twig:32</note>
+        <note category="desc" priority="1">Save item</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>admin.season.button.save_item</source>
+        <target>Save item</target>
+      </segment>
+    </unit>
+    <unit id="X_Yl9Zk" name="title.no_season_yet">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Season/index.html.twig:50</note>
+        <note category="desc" priority="1">No season yet, sadly</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>title.no_season_yet</source>
+        <target>No season yet</target>
+      </segment>
+    </unit>
+    <unit id="DxK2R8u" name="text.check_back_soon">
+      <notes>
+        <note category="file-source" priority="1">vendor/disjfa/mozaic-bundle/Resources/views/Season/index.html.twig:52</note>
+        <note category="desc" priority="1">Check back soon, there will be one</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>text.check_back_soon</source>
+        <target>Check back soon, they will come!</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

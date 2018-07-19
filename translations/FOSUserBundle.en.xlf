@@ -151,7 +151,6 @@ If you don't get an email check your spam folder or try again.</target>
     <unit id="tRLZfny" name="User">
       <notes>
         <note category="file-source" priority="1">src/Form/Type/UserType.php:31</note>
-        <note category="state" priority="1">new</note>
       </notes>
       <segment>
         <source>User</source>
@@ -161,7 +160,6 @@ If you don't get an email check your spam folder or try again.</target>
     <unit id="wcIksDz" name="Admin">
       <notes>
         <note category="file-source" priority="1">src/Form/Type/UserType.php:31</note>
-        <note category="state" priority="1">new</note>
       </notes>
       <segment>
         <source>Admin</source>
@@ -171,7 +169,6 @@ If you don't get an email check your spam folder or try again.</target>
     <unit id="47ienTP" name="Username">
       <notes>
         <note category="file-source" priority="1">src/Form/Type/UserType.php:22</note>
-        <note category="state" priority="1">new</note>
       </notes>
       <segment>
         <source>Username</source>
@@ -181,7 +178,6 @@ If you don't get an email check your spam folder or try again.</target>
     <unit id="lpzL089" name="Email">
       <notes>
         <note category="file-source" priority="1">src/Form/Type/UserType.php:26</note>
-        <note category="state" priority="1">new</note>
       </notes>
       <segment>
         <source>Email</source>
@@ -191,7 +187,6 @@ If you don't get an email check your spam folder or try again.</target>
     <unit id="wlM3BVR" name="Roles">
       <notes>
         <note category="file-source" priority="1">src/Form/Type/UserType.php:30</note>
-        <note category="state" priority="1">new</note>
       </notes>
       <segment>
         <source>Roles</source>
