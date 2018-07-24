@@ -1,8 +1,28 @@
 {% extends "@GlynnTemplate/base.html.twig" %}
 
+{% block title %}
+    Mozaic by dimme
+{% endblock %}
+
 {%- block navbar_nav_class -%}
     navbar-dark bg-midnight
 {%- endblock -%}
+
+{% block meta %}
+    {{ parent() }}
+
+    {% if ga_tracking %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_tracking }}"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '{{ ga_tracking }}');
+        </script>
+    {% endif %}
+{% endblock %}
 
 {%- block navbar_brand -%}
     <img src="{{ asset('icons/apple-touch-icon.png') }}" alt="">
