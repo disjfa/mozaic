@@ -1,3 +1,5 @@
+workbox.precaching.precache(self.__precacheManifest || []);
+
 self.addEventListener('install', function (event) {
   let offlineRequest = new Request('offline.html');
   event.waitUntil(
@@ -26,5 +28,3 @@ self.addEventListener('fetch', function (event) {
     );
   }
 });
-
-workbox.precaching.precache(self.__precacheManifest || []);
