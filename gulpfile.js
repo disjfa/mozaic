@@ -13,7 +13,7 @@ gulp.task('favicons', function () {
     path: '/icons/',
     url: 'http://disjfa.nl/',
     display: 'standalone',
-    orientation: 'portrait',
+    orientation: 'any',
     start_url: '/?homescreen=1',
     version: 1.0,
     logging: false,
